@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<article>
+
+  <header class="p-hero">
+    <div class="prose">
+      <p class="eyebrow">Project {{ page.order }} &mdash; {{ page.field }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.tagline %}<p class="lede">{{ page.tagline }}</p>{% endif %}
+      <p class="p-hero__meta">{{ page.subtitle }}</p>
+      {% if page.tags %}
+      <ul class="tags">
+        {% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+
+    {% if page.hero_image %}
+    <div class="wrap">
+      <figure class="p-hero__figure{% if page.hero_narrow %} p-hero__figure--narrow{% endif %}">
+        <img src="{{ '/assets/img/' | append: page.hero_image | relative_url }}" alt="{{ page.hero_alt | default: page.title }}">
+        {% if page.hero_caption %}<figcaption>{{ page.hero_caption }}</figcaption>{% endif %}
+      </figure>
+    </div>
+    {% endif %}
+  </header>
+
+  {{ content }}
+
+  <section class="section">
+    <div class="prose">
+      <h2>Project Links</h2>
+      <div class="cta">
+        {% for b in page.buttons %}
+          {% if b.url and b.url != "" %}
+            <a class="btn {{ b.style }}" href="{{ b.url }}">{{ b.label }}</a>
+          {% else %}
+            <span class="btn btn--pending" title="This link is added once the record is published">{{ b.label }} — link pending</span>
+          {% endif %}
+        {% endfor %}
+        <a class="btn btn--ghost" href="{{ '/#projects' | relative_url }}">View Other Projects</a>
+      </div>
+      {% if page.doi and page.doi != "" %}
+      <p class="note" style="margin-top:1.4rem">Cite as: {{ page.citation }}</p>
+      {% else %}
+      <p class="note" style="margin-top:1.4rem">
+        The permanent Zenodo DOI for this project is added here once the record is published.
+      </p>
+      {% endif %}
+    </div>
+  </section>
+
+</article>

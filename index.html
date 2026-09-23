@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="wrap">
+    <h1 class="hero__name">{{ site.student_name }}</h1>
+    <p class="hero__title">{{ site.site_title }}</p>
+    <p class="hero__sub">{{ site.site_subtitle }}</p>
+    <p class="hero__strap">{{ site.site_strapline }}</p>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="wrap">
+    <p class="eyebrow">Selected Projects</p>
+
+    {% assign items = site.projects | sort: "order" %}
+    {% for project in items %}
+    <a class="project-card" href="{{ project.url | relative_url }}">
+      <div class="project-card__media">
+        <img src="{{ '/assets/img/' | append: project.card_image | relative_url }}"
+             alt="{{ project.title }}" loading="lazy">
+      </div>
+      <div>
+        <span class="project-card__index">PROJECT {{ project.order }} &nbsp;·&nbsp; {{ project.field }}</span>
+        <h2 class="project-card__title">{{ project.title }}</h2>
+        <p class="project-card__sum">{{ project.summary }}</p>
+        <span class="project-card__more">Read the project &rarr;</span>
+      </div>
+    </a>
+    {% endfor %}
+
+    {% for project in site.data.upcoming %}
+    <div class="project-card project-card--pending">
+      <div class="project-card__media">In preparation</div>
+      <div>
+        <span class="project-card__index">PROJECT {{ project.order }} &nbsp;·&nbsp; {{ project.field }}</span>
+        <h2 class="project-card__title">{{ project.title }}</h2>
+        <p class="project-card__sum">{{ project.summary }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="prose">
+    <p class="eyebrow">About this portfolio</p>
+    <h2>Documented engineering and research work</h2>
+    <p>
+      This portfolio presents independent and coursework engineering projects carried out by
+      {{ site.student_name }}. Each project page summarises the problem addressed, the method
+      followed, the results obtained and the limitations of the work, and links to a permanent,
+      citable record of the complete documentation.
+    </p>
+    <p>
+      Full reports, datasets and supporting materials are archived on
+      <a href="https://zenodo.org" rel="noopener">Zenodo</a>, an open research repository operated
+      by CERN, where each record receives a permanent DOI. Where a project includes source code or
+      hardware documentation, it is published on GitHub or Hackster.io and linked from the
+      corresponding project page.
+    </p>
+    <p class="note">
+      Each project page states clearly which parts of the work were experimentally carried out and
+      which were conceptual, simulated or proposed for future testing.
+    </p>
+  </div>
+</section>

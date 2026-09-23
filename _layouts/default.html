@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }} — {{ site.student_name }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.summary | default: site.description | strip_newlines }}">
+  <meta name="author" content="{{ site.student_name }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ page.summary | default: site.description | strip_newlines }}">
+  {% if page.hero_image %}<meta property="og:image" content="{{ '/assets/img/' | append: page.hero_image | absolute_url }}">{% endif %}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="wrap masthead__inner">
+      <a class="masthead__name" href="{{ '/' | relative_url }}">{{ site.student_name }}</a>
+      <nav class="masthead__nav">
+        <a href="{{ '/#projects' | relative_url }}">Projects</a>
+        <a href="{{ '/#about' | relative_url }}">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p><strong>{{ site.student_name }}</strong> — {{ site.site_title }}</p>
+      <p>{{ site.footer_note }}</p>
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.student_name }}. All project materials are the work of the author.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+# Projects that are announced on the landing page but not yet published.
+#
+# When the full material for one of these arrives, delete its entry from this
+# file and create the real project page in the _projects folder instead.
+
+- order: 4
+  field: Environmental Engineering
+  title: Water Remediation with Biochar
+  summary: >-
+    An environmental engineering project on the use of biochar for water treatment.
+    The full project page will be published once the material is available.

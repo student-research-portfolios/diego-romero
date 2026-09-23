@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------
+# Site-wide settings. Edit the values below to change the text that appears
+# in the header, the browser tab and the footer of every page.
+# ---------------------------------------------------------------------------
+
+student_name:  Diego Romero
+site_title:    Engineering & Research Portfolio
+site_subtitle: Student Projects in Engineering, Technology, Experimental Science & Environmental Solutions
+site_strapline: Retail Robotics · Food-Service Automation · Electrochemistry · Water Remediation with Biochar
+
+description: >-
+  Engineering and research portfolio of Diego Romero, presenting student projects
+  in retail robotics, food-service automation, experimental electrochemistry and
+  environmental solutions.
+
+footer_note: Portfolio pages prepared for university admissions reading. All research records are archived on Zenodo.
+
+# --- Technical settings: change these only when moving the site ------------
+title: Diego Romero — Engineering & Research Portfolio
+url: "https://student-research-portfolios.github.io"
+baseurl: "/diego-romero"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - HANDOVER.md
