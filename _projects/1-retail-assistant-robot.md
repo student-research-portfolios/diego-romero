@@ -35,8 +35,6 @@ buttons:
     url: ""
   - label: View Zenodo Record
     url: ""
-  - label: View Technical Documentation
-    url: ""
 ---
 
 <section class="section" markdown="1">
