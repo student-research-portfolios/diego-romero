@@ -228,7 +228,7 @@ laboratory facilities and technologies relevant to the proposed concept.
     <figcaption>Open Labs facility map, with the laboratories relevant to the project marked during the visit.</figcaption>
   </figure>
   <figure>
-    <img src="{{ '/assets/img/food-service/visit-record-redacted.jpg' | relative_url }}" alt="Diego Romero's completed laboratory visit record" loading="lazy">
+    <img src="{{ '/assets/img/food-service/visit-record.jpg' | relative_url }}" alt="Diego Romero's completed laboratory visit record" loading="lazy">
     <figcaption>Diego's completed laboratory visit record, stamped at each laboratory visited.</figcaption>
   </figure>
 </div>
