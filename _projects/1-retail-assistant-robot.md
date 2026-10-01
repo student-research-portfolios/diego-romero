@@ -20,10 +20,11 @@ tags:
   - Prototyping
   - Engineering Design
 
-card_image: retail-robot/construction-process.jpg
-hero_image: retail-robot/construction-process.jpg
-hero_alt: Photographs of the prototype construction process
-hero_caption: Construction process of the prototype, from structural assembly to Arduino wiring.
+card_image: retail-robot/prototype-front.jpg
+hero_image: retail-robot/prototype-front.jpg
+hero_narrow: true
+hero_alt: The early cardboard and Arduino prototype of the retail assistant robot
+hero_caption: Early prototype of the retail assistant robot, with the tablet interface mounted on the side.
 
 # --- Buttons at the bottom of the page --------------------------------------
 # Leave url blank until the record is published, then paste the link between
@@ -36,6 +37,50 @@ buttons:
   - label: View Zenodo Record
     url: ""
 ---
+
+<section class="section" markdown="1">
+<div class="prose" markdown="1">
+
+## Early Prototype and Functional Testing
+
+An early physical prototype was built from a cardboard body mounted on an Arduino-based wheeled
+chassis, with an ultrasonic sensor at the front and a tablet mounted on the side. The short clips
+below show the prototype moving during functional testing.
+
+</div>
+
+<div class="wrap">
+<div class="gallery">
+  <figure>
+    <img src="{{ '/assets/img/retail-robot/prototype-tablet-side.jpg' | relative_url }}" alt="Side view of the prototype with the tablet mounted" loading="lazy">
+    <figcaption>Side view, showing the mounted tablet interface.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/retail-robot/prototype-wheels.jpg' | relative_url }}" alt="The prototype body on its wheeled chassis" loading="lazy">
+    <figcaption>The prototype body on its wheeled chassis.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/retail-robot/prototype-chassis-sensor.jpg' | relative_url }}" alt="Arduino chassis with the ultrasonic sensor" loading="lazy">
+    <figcaption>Arduino chassis with the ultrasonic sensor used for proximity detection.</figcaption>
+  </figure>
+</div>
+
+<div class="gallery" style="margin-top:var(--gap-sm)">
+  <figure>
+    <video controls muted playsinline preload="none" poster="{{ '/assets/img/retail-robot/prototype-test-1.jpg' | relative_url }}">
+      <source src="{{ '/assets/img/retail-robot/prototype-test-1.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Functional test: the prototype moving across the floor.</figcaption>
+  </figure>
+  <figure>
+    <video controls muted playsinline preload="none" poster="{{ '/assets/img/retail-robot/prototype-test-2.jpg' | relative_url }}">
+      <source src="{{ '/assets/img/retail-robot/prototype-test-2.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Functional test: a longer run of the prototype in operation.</figcaption>
+  </figure>
+</div>
+</div>
+</section>
 
 <section class="section" markdown="1">
 <div class="prose" markdown="1">
@@ -152,6 +197,13 @@ breadboard, Dupont wires, an ultrasonic sensor, LEDs, resistors and AA batteries
 process included structural assembly, electronic connections, Arduino programming, development of
 the tablet-based web interface, and installation of the demonstration components.
 
+</div>
+
+<div class="wrap">
+<figure class="figure-single">
+  <img src="{{ '/assets/img/retail-robot/construction-process.jpg' | relative_url }}" alt="Photographs of the prototype construction process" loading="lazy">
+  <figcaption>Construction process, from structural assembly to Arduino wiring.</figcaption>
+</figure>
 </div>
 </section>
 

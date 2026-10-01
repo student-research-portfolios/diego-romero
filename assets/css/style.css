@@ -255,3 +255,5 @@ tbody tr:last-child td { border-bottom: none; }
   .masthead__nav, .cta { display: none; }
   body { background: #fff; }
 }
+
+.gallery video { width: 100%; border-radius: var(--radius); border: 1px solid var(--rule); background: #000; display: block; }
