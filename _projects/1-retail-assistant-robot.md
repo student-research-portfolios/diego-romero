@@ -65,7 +65,7 @@ below show the prototype moving during functional testing.
   </figure>
 </div>
 
-<div class="gallery" style="margin-top:var(--gap-sm)">
+<div class="gallery gallery--video">
   <figure>
     <video controls muted playsinline preload="none" poster="{{ '/assets/img/retail-robot/prototype-test-1.jpg' | relative_url }}">
       <source src="{{ '/assets/img/retail-robot/prototype-test-1.mp4' | relative_url }}" type="video/mp4">
