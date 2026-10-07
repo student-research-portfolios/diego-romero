@@ -85,6 +85,26 @@ below show the prototype moving during functional testing.
 <section class="section" markdown="1">
 <div class="prose" markdown="1">
 
+## Proposed Tablet Interface
+
+The tablet mounted on the robot was designed to give customers a single screen for the main
+shopping-support functions: searching for a product, checking a price, viewing current promotions,
+scanning products, and proceeding to checkout. The interface below is the proposed design concept
+for that screen.
+
+</div>
+
+<div class="wrap">
+<figure class="figure-single">
+  <img src="{{ '/assets/img/retail-robot/tablet-interface.jpg' | relative_url }}" alt="Proposed tablet interface with product search, price check, promotions, product scanning and checkout" loading="lazy">
+  <figcaption>Proposed tablet interface concept for the retail assistant robot.</figcaption>
+</figure>
+</div>
+</section>
+
+<section class="section" markdown="1">
+<div class="prose" markdown="1">
+
 ## The Problem
 
 Long checkout lines can reduce service efficiency and negatively affect the retail shopping
