@@ -29,13 +29,13 @@ hero_caption: Early prototype of the retail assistant robot, with the tablet int
 # --- Buttons at the bottom of the page --------------------------------------
 # Leave url blank until the record is published, then paste the link between
 # the quotation marks. Nothing else needs to change.
-doi: ""
-citation: ""
+doi: "10.5281/zenodo.22940838"
+citation: "Romero Nervi, D. (2026). Semi-Automated Retail Assistant Robot (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22940838"
 buttons:
   - label: View Full Project Report
-    url: ""
+    url: "https://zenodo.org/records/22940838/files/Semi_Automated_Retail_Assistant_Robot_Diego_Romero_Nervi_v1.0.pdf"
   - label: View Zenodo Record
-    url: ""
+    url: "https://doi.org/10.5281/zenodo.22940838"
 ---
 
 <section class="section" markdown="1">

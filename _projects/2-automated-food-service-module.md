@@ -26,13 +26,13 @@ hero_caption: Storyboard scene 04 — the conceptual automated food-service modu
 # --- Buttons at the bottom of the page --------------------------------------
 # Leave url blank until the record is published, then paste the link between
 # the quotation marks. Nothing else needs to change.
-doi: ""
-citation: ""
+doi: "10.5281/zenodo.22940846"
+citation: "Romero, D. (2026). Automated Food-Service Module: An Engineering Concept for Improving Service Efficiency (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22940846"
 buttons:
   - label: View Full Project (English)
-    url: ""
+    url: "https://zenodo.org/records/22940846/files/Diego_Romero_Automated_Food_Service_Module_EN.pdf"
   - label: View Spanish Portfolio Version
-    url: ""
+    url: "https://zenodo.org/records/22940846/files/Diego_Romero_Automated_Food_Service_Module_ES.pdf"
 ---
 
 <section class="section" markdown="1">

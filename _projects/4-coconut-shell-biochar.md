@@ -29,13 +29,13 @@ hero_caption: "The continuous-flow filtration column mounted on a universal stan
 # --- Buttons at the bottom of the page --------------------------------------
 # Leave url blank until the record is published, then paste the link between
 # the quotation marks. Nothing else needs to change.
-doi: ""
-citation: ""
+doi: "10.5281/zenodo.23230411"
+citation: "Romero Nervi, D. (2026). Evaluation of the Absorption Efficiency of Copper(II) Ions in a Continuous-Flow System Using Activated Coconut-Shell Biochar (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.23230411"
 buttons:
   - label: View Full Research Paper
-    url: ""
+    url: "https://doi.org/10.5281/zenodo.23230411"
   - label: View Spanish Original
-    url: ""
+    url: "https://zenodo.org/records/23230411/files/Diego_Independent_Research_Biochar_Spanish_Original.pdf"
 ---
 
 <section class="section" markdown="1">

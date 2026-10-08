@@ -28,11 +28,11 @@ hero_caption: "The electrochemical cell in operation, with the two half-cells co
 # --- Buttons at the bottom of the page --------------------------------------
 # Leave url blank until the record is published, then paste the link between
 # the quotation marks. Nothing else needs to change.
-doi: ""
-citation: ""
+doi: "10.5281/zenodo.22940884"
+citation: "Romero, D. (2026). Comparative Analysis of Changes in the Mass of Aluminum and Copper Based on the Concentration of ZnSO4 and CuSO4 (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22940884"
 buttons:
   - label: View Full Research Paper
-    url: ""
+    url: "https://doi.org/10.5281/zenodo.22940884"
 ---
 
 <section class="section" markdown="1">
