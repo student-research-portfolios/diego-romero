@@ -134,11 +134,15 @@ Adding a project is a matter of copying an existing one.
 The new project appears on the landing page automatically.
 You do not need to edit the landing page itself.
 
-### Removing the "In preparation" placeholder
+### Announcing a project before it is ready
 
-The fourth project currently shows on the landing page as a greyed-out card.
-That card is defined in the file `_data/upcoming.yml`.
+To show a greyed-out "In preparation" card on the landing page, add an entry to the file `_data/upcoming.yml`.
 Once the real project page exists, delete the entry from that file so the placeholder disappears.
+
+### Changing the order of the projects
+
+The `order:` number near the top of each project file sets its position on the landing page and its "Project 1, 2, 3..." label.
+Change the numbers and commit; the file names do not need to change.
 
 ---
 
