@@ -7,6 +7,7 @@ layout: default
     <h1 class="hero__name">{{ site.student_name }}</h1>
     <p class="hero__title">{{ site.site_title }}</p>
     <p class="hero__sub">{{ site.site_subtitle }}</p>
+    {% if site.site_intro %}<p class="hero__intro">{{ site.site_intro }}</p>{% endif %}
     <p class="hero__strap">{{ site.site_strapline }}</p>
   </div>
 </section>

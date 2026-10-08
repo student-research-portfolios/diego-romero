@@ -1,6 +1,6 @@
 ---
 # --- Shown on the landing page and at the top of this project page ----------
-order: 3
+order: 1
 field: Experimental Electrochemistry
 title: "Effect of ZnSO4 and CuSO4 Concentration and Temperature on Electrode Mass Change in a Modified Galvanic Cell"
 tagline: >-
@@ -32,8 +32,6 @@ doi: ""
 citation: ""
 buttons:
   - label: View Full Research Paper
-    url: ""
-  - label: View Experimental Data
     url: ""
 ---
 

@@ -1,6 +1,6 @@
 ---
 # --- Shown on the landing page and at the top of this project page ----------
-order: 2
+order: 4
 field: Food-Service Automation
 title: "Automated Food-Service Module: An Engineering Concept for Improving Service Efficiency"
 tagline: >-

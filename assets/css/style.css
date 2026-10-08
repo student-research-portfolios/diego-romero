@@ -259,3 +259,4 @@ tbody tr:last-child td { border-bottom: none; }
 .gallery video { width: 100%; border-radius: var(--radius); border: 1px solid var(--rule); background: #000; display: block; }
 /* Phone videos are portrait; narrow columns stop them filling the screen. */
 .gallery--video { margin-top: var(--gap-sm); grid-template-columns: repeat(auto-fit, minmax(12rem, 17rem)); justify-content: center; }
+.hero__intro { margin-top: 1.4rem; max-width: 40rem; color: var(--ink); line-height: 1.75; }

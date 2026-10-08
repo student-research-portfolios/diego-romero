@@ -6,7 +6,13 @@
 student_name:  Diego Romero
 site_title:    Engineering & Research Portfolio
 site_subtitle: Student Projects in Engineering, Technology, Experimental Science & Environmental Solutions
-site_strapline: Retail Robotics · Food-Service Automation · Electrochemistry · Water Remediation with Biochar
+site_intro: >-
+  I am a student from Lima, Peru, with a strong interest in chemistry, engineering, and technology.
+  Through my academic projects, I have explored electrochemical reactions, the use of biochar for
+  water treatment, robotics, and automation. These experiences have strengthened my interest in
+  Chemical Engineering and encouraged me to explore how science and engineering can help solve
+  practical problems.
+site_strapline: Electrochemistry · Water Remediation with Biochar · Retail Robotics · Food-Service Automation
 
 description: >-
   Engineering and research portfolio of Diego Romero, presenting student projects

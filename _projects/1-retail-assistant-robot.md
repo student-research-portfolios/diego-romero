@@ -1,6 +1,6 @@
 ---
 # --- Shown on the landing page and at the top of this project page ----------
-order: 1
+order: 3
 field: Retail Robotics
 title: Semi-Automated Retail Assistant Robot
 tagline: >-

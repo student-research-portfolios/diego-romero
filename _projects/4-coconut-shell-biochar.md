@@ -1,6 +1,6 @@
 ---
 # --- Shown on the landing page and at the top of this project page ----------
-order: 4
+order: 2
 field: Water Remediation with Biochar
 title: "Evaluation of the Absorption Efficiency of Copper(II) Ions in a Continuous-Flow System Using Activated Coconut-Shell Biochar"
 tagline: >-
@@ -185,6 +185,10 @@ bicarbonate treatment, heating, citric-acid washing, distilled-water washing, an
     <figcaption>Estimated mean pH vs. activated biochar mass. Source: author's experimental data.</figcaption>
   </figure>
 </div>
+</div>
+
+<div class="prose">
+<p class="note" style="margin-top:1.2rem">Note: The x-axis labels 1, 2, and 3 represent the experimental conditions corresponding to 1.0 g, 3.0 g, and 5.0 g of biochar, respectively.</p>
 </div>
 </section>
 
