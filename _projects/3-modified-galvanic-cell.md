@@ -32,7 +32,7 @@ doi: "10.5281/zenodo.22940884"
 citation: "Romero, D. (2026). Comparative Analysis of Changes in the Mass of Aluminum and Copper Based on the Concentration of ZnSO4 and CuSO4 (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22940884"
 buttons:
   - label: View Full Research Paper
-    url: "https://doi.org/10.5281/zenodo.22940884"
+      url: "https://zenodo.org/records/22940884/files/Diego_Romero_Chemistry_Research_Project_EN.pdf"
 ---
 
 <section class="section" markdown="1">
