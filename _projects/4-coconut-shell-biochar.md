@@ -32,10 +32,10 @@ hero_caption: "The continuous-flow filtration column mounted on a universal stan
 doi: "10.5281/zenodo.23739469"
 citation: "Romero Nervi, D. (2026). Evaluation of the Absorption Efficiency of Copper(II) Ions in a Continuous-Flow System Using Activated Coconut-Shell Biochar (Version 2). Zenodo. https://doi.org/10.5281/zenodo.23739469"
 buttons:
-  - label: View Full Research Paper
+  - label: "View Full Research Paper"
     url: "https://zenodo.org/records/23739469/files/Diego_Romero_Biochar_English_Formulas_Corrected%2028.10.2026.pdf"
-  - label: View Spanish Original
-      url: "https://zenodo.org/records/23739469/files/Investigaci%C3%B3n%20independiente%20-%20Biocarb%C3%B3n%2028.10.2026.pdf"
+  - label: "View Spanish Original"
+    url: "https://zenodo.org/records/23739469/files/Investigaci%C3%B3n%20independiente%20-%20Biocarb%C3%B3n%2028.10.2026.pdf"
 ---
 <section class="section" markdown="1">
 <div class="prose" markdown="1">
