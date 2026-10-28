@@ -35,6 +35,9 @@ buttons:
   - label: "View Full Research Paper"
     url: "https://zenodo.org/records/22940884/files/Diego_Romero_Chemistry_Research_Project_EN.pdf"
 
+  - label: "View Spanish Original"
+    url: "https://zenodo.org/records/22940884/files/Diego_Romero_Chemistry_Research_Project_ES_Original.pdf"
+
 ---
 
 <section class="section" markdown="1">
