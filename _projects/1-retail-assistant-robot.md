@@ -38,8 +38,7 @@ buttons:
   - label: "View Spanish Original"
     url: "https://zenodo.org/records/22940838/files/Semi_Automated_Retail_Assistant_Robot_Diego_Romero_Nervi_v1.0_ES.pdf"
  
-  - label: View Zenodo Record
-    url: "https://doi.org/10.5281/zenodo.22940838"
+ 
 ---
 
 <section class="section" markdown="1">
